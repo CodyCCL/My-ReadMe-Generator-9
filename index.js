@@ -1,7 +1,7 @@
-// TODO: Include packages needed for this application
+// Include packages needed for this application
 const inquirer = require('inquirer');
 const { writeFile } = require('fs').promises;
-
+// writes ReadMe file
 const writeToFile = ({fileName, description, installation, usage, license, contributing, tests, username, email}) =>    
 `# ${fileName} 
 
@@ -43,7 +43,7 @@ const writeToFile = ({fileName, description, installation, usage, license, contr
     Find me on Github: ${username} 
 
     or email: ${email}`;
-
+// Prompts Questions 
 const promptUser = () => {
     return inquirer.prompt([
         {
@@ -94,7 +94,7 @@ const promptUser = () => {
           },
     ]);
 };
-
+// creates ReadMe.md file
 const init = () => {
     promptUser()
      .then((answers) => writeFile('README.md', writeToFile(answers)))
