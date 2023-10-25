@@ -36,5 +36,5 @@ THEN I am taken to the corresponding section of the README
 ## Walkthrough video Link
 https://drive.google.com/file/d/19WOfWOjQK5U0QFnTwRZN713b0vBmIV4V/view
 ```
-Sample ReadMe file provided under the name 'sample ReadMe.md'
+Sample ReadMe file provided under the name 'Sample README.md'
 ```
