@@ -35,3 +35,4 @@ THEN I am taken to the corresponding section of the README
 ```
 ## Walkthrough video Link
 https://drive.google.com/file/d/19WOfWOjQK5U0QFnTwRZN713b0vBmIV4V/view
+Sample ReadMe provided under 'sample ReadMe.md'
